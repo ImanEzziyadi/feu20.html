@@ -1,0 +1,30 @@
+img {
+  float: right;
+}
+* {
+  box-sizing: border-box;
+} 
+html, body {
+  margin: 0;
+} 
+
+a { 
+  color:red;
+  text-decoration: none;
+}
+a:hover {
+  color:blue; 
+  text-decoration: underline;
+} 
+.border {
+  border-bottom-width:1px ;
+  border-bottom-style: solid;
+  border-color: brown;
+}
+.box {padding: 1 rem ;
+  flex-basis: 33.333333%;
+ }
+.d-flex {
+  display: flex;
+}
+
